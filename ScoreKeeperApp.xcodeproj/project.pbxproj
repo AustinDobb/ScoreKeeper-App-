@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31043E142AFAA5BE00AC5C43 /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31043E132AFAA5BE00AC5C43 /* Players.swift */; };
 		3106545A2AFA994A00951007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310654592AFA994A00951007 /* AppDelegate.swift */; };
 		3106545C2AFA994A00951007 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106545B2AFA994A00951007 /* SceneDelegate.swift */; };
-		3106545E2AFA994A00951007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106545D2AFA994A00951007 /* ViewController.swift */; };
 		310654612AFA994A00951007 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3106545F2AFA994A00951007 /* Main.storyboard */; };
 		310654632AFA994C00951007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 310654622AFA994C00951007 /* Assets.xcassets */; };
 		310654662AFA994C00951007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310654642AFA994C00951007 /* LaunchScreen.storyboard */; };
+		3106546E2AFA99E200951007 /* ScoreKeeperTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106546D2AFA99E200951007 /* ScoreKeeperTableViewController.swift */; };
+		310654702AFAA0BA00951007 /* NewPlayerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106546F2AFAA0BA00951007 /* NewPlayerTableViewController.swift */; };
+		31FDDF8C2AFBE01900E751B3 /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FDDF8B2AFBE01900E751B3 /* PlayerTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31043E132AFAA5BE00AC5C43 /* Players.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
 		310654562AFA994A00951007 /* ScoreKeeperApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoreKeeperApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		310654592AFA994A00951007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3106545B2AFA994A00951007 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3106545D2AFA994A00951007 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		310654602AFA994A00951007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		310654622AFA994C00951007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		310654652AFA994C00951007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		310654672AFA994C00951007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3106546D2AFA99E200951007 /* ScoreKeeperTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreKeeperTableViewController.swift; sourceTree = "<group>"; };
+		3106546F2AFAA0BA00951007 /* NewPlayerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlayerTableViewController.swift; sourceTree = "<group>"; };
+		31FDDF8B2AFBE01900E751B3 /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 			children = (
 				310654592AFA994A00951007 /* AppDelegate.swift */,
 				3106545B2AFA994A00951007 /* SceneDelegate.swift */,
-				3106545D2AFA994A00951007 /* ViewController.swift */,
 				3106545F2AFA994A00951007 /* Main.storyboard */,
+				31FDDF8B2AFBE01900E751B3 /* PlayerTableViewCell.swift */,
+				3106546F2AFAA0BA00951007 /* NewPlayerTableViewController.swift */,
+				31043E132AFAA5BE00AC5C43 /* Players.swift */,
+				3106546D2AFA99E200951007 /* ScoreKeeperTableViewController.swift */,
 				310654622AFA994C00951007 /* Assets.xcassets */,
 				310654642AFA994C00951007 /* LaunchScreen.storyboard */,
 				310654672AFA994C00951007 /* Info.plist */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3106545E2AFA994A00951007 /* ViewController.swift in Sources */,
+				31FDDF8C2AFBE01900E751B3 /* PlayerTableViewCell.swift in Sources */,
+				3106546E2AFA99E200951007 /* ScoreKeeperTableViewController.swift in Sources */,
+				31043E142AFAA5BE00AC5C43 /* Players.swift in Sources */,
 				3106545A2AFA994A00951007 /* AppDelegate.swift in Sources */,
 				3106545C2AFA994A00951007 /* SceneDelegate.swift in Sources */,
+				310654702AFAA0BA00951007 /* NewPlayerTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
